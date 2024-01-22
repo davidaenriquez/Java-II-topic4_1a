@@ -16,7 +16,7 @@ public class FilePlay {
      */
     public static void main(String[] args) {
         // Call copyFile() with input and output filenames
-        int errorCode = copyFile("InUsers.txt", "OutFile.txt");
+        int errorCode = copyFile("IUsers.txt", "OutFile.txt");
         
         // Display appropriate message based on the error code
         switch (errorCode) {
